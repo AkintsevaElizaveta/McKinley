@@ -69,6 +69,8 @@ a{
 .main{
     width: 1440px;
     color: #00486D;
+    overflow: hidden;
+
 }
 .general_info{
     background: #E4ECF0;
@@ -78,6 +80,10 @@ a{
     grid-template-columns: 563px 1fr;
     align-items: center;
     grid-column-gap: 215px;
+    position: relative;
+}
+.general_text_box{
+    overflow: hidden;
     position: relative;
 }
 .general_title{
@@ -105,6 +111,16 @@ a{
     top:56px;
     right: 85px;
     z-index: 3;
+}
+.circle_logo{
+    position: absolute;
+    top: -152px;
+    left: 29px;
+}
+.circle_bottom{
+    position: absolute;
+    bottom:-112px;
+    right: 528px;
 }
 
 
