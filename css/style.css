@@ -68,6 +68,7 @@ a{
 }
 .main{
     width: 1440px;
+    margin: 0 auto;
     color: #00486D;
     overflow: hidden;
 
@@ -76,6 +77,7 @@ a{
     background: #E4ECF0;
     min-height: 753px;
     padding-left: 85px;
+    margin: 0 0 155px;
     display: grid;
     grid-template-columns: 563px 1fr;
     align-items: center;
@@ -91,7 +93,6 @@ a{
     font-size: 55px;
     line-height: 68px;
     margin: 0 0 25px;
-    /*color: #00486D;*/
 }
 .general_text{
     font-size: 24px;
@@ -122,5 +123,46 @@ a{
     bottom:-112px;
     right: 528px;
 }
-
+.areas_of_practice{
+    padding: 0 85px;
+    display: grid;
+}
+.areas_title{
+    font-family:'DM Serif Text', serif;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0 0 25px;
+}
+.area_text_top{
+    font-size: 24px;
+    line-height: 42px;
+    margin: 0 0 50px;
+}
+.area_list{
+    list-style: none;
+    margin: 0 0 160px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+.area_item{
+    border: 1px solid #E4ECF0;
+    box-shadow: 0 24px 24px rgba(0, 72, 109, 0.2);
+    border-radius: 2px;
+    padding: 40px 34px;
+    display: grid;
+    grid-template-rows: 145px 1fr 35px;
+}
+.area_list_img{
+    margin: 0 0 40px;
+}
+.area_list_title{
+    font-size: 22px;
+    line-height: 33px;
+    margin: 0 0 12px;
+}
+.area_list_text{
+    margin: 0 0 40px;
+}
 
